@@ -166,8 +166,8 @@ export const TESTIMONIALS = [
     image: "/profile-pictures/user5.jpg",
   },
   {
-    name: "Luca Rossi",
-    instagram: "@luca.r",
+    name: "Lucas Rossi",
+    instagram: "@lucas.r",
     feedback:
       "Professional and knowledgeable team. They helped me find my dream home in Milan.",
     city_country: "Milan, Italy",
