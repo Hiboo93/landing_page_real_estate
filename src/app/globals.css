@@ -74,3 +74,10 @@
       @apply bg-background text-foreground;
     }
   }
+
+  @layer utilities {
+    .hero {
+      background-image: url("../../public/home.jpeg");
+      background-size: cover;
+    }
+  }
