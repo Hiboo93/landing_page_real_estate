@@ -6,6 +6,8 @@ import Services from "@/components/Services";
 import AboutUs from "@/components/AboutUs";
 import Testimonials from "@/components/Testimonials";
 import Faq from "@/components/Faq";
+import Footer from "@/components/Footer";
+
 
 
 
@@ -20,6 +22,7 @@ export default function Home() {
       <AboutUs/>
       <Testimonials/>
       <Faq/>
+      <Footer/>
     </main>
   );
 }
