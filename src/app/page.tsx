@@ -4,6 +4,8 @@ import HowItWorks from "@/components/HowItWorks";
 import FeaturedProperties from "@/components/FeaturedProperties";
 import Services from "@/components/Services";
 import AboutUs from "@/components/AboutUs";
+import Testimonials from "@/components/Testimonials";
+
 
 
 export default function Home() {
@@ -15,6 +17,7 @@ export default function Home() {
       <FeaturedProperties/>
       <Services/>
       <AboutUs/>
+      <Testimonials/>
     </main>
   );
 }

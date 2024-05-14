@@ -134,11 +134,11 @@ export const TESTIMONIALS = [
     image: "/profile-pictures/user1.jpg",
   },
   {
-    name: "John Smith",
-    instagram: "@john.smith",
+    name: "Isabelle Dupont",
+    instagram: "@isabelle.dupont",
     feedback:
       "I was impressed by their professionalism and dedication. Highly recommend their services! I'm so grateful for their expertise.",
-    city_country: "London, UK",
+    city_country: "Paris, France",
     image: "/profile-pictures/user2.jpg",
   },
   {
