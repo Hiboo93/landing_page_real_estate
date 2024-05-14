@@ -32,7 +32,7 @@ const Navbar = () => {
           <ul className="flex items-center gap-4">
             {NAV_LINKS.map(({title, url}, index) => (
               <li key={index}>
-                <Link className="text-sm text-white hover:text-neutral-500" href={url}>
+                <Link className="text-sm text-white hover:text-sky-500" href={url}>
                   {title}
                 </Link>
               </li>
@@ -57,7 +57,7 @@ const Navbar = () => {
             {
               NAV_LINKS.map(({title, url}, index) =>(
                 <li key={index} className="py-6">
-                  <Link href={url} className="text-sm text-white hover:text-neutral-500">{title}</Link>
+                  <Link href={url} className="text-sm text-white hover:text-sky-500">{title}</Link>
                 </li>
               ))
             }

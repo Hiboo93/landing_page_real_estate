@@ -5,6 +5,7 @@ import FeaturedProperties from "@/components/FeaturedProperties";
 import Services from "@/components/Services";
 import AboutUs from "@/components/AboutUs";
 import Testimonials from "@/components/Testimonials";
+import Faq from "@/components/Faq";
 
 
 
@@ -18,6 +19,7 @@ export default function Home() {
       <Services/>
       <AboutUs/>
       <Testimonials/>
+      <Faq/>
     </main>
   );
 }
