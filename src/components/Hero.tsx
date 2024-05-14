@@ -1,4 +1,5 @@
-import { HERO } from "@/constants/index"
+import { HERO } from "@/constants/index";
+import SearchForm from "./SearchForm";
 
 const Hero = () => {
   return (
@@ -10,6 +11,7 @@ const Hero = () => {
           </h1>
           <p className="p-4 text-center text-slate-300">{HERO.description}</p>
         </div>
+        <SearchForm />
       </div>
     </div>
   )
